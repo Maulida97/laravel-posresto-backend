@@ -16,6 +16,14 @@
                         <a class="nav-link"
                             href="{{ route('users.index') }}">Users</a>
                     </li>
+                    <li class=''>
+                        <a class="nav-link"
+                            href="{{ route('products.index') }}">Products</a>
+                    </li>
+                    <li class=''>
+                        <a class="nav-link"
+                            href="{{ route('categories.index') }}">Category</a>
+                    </li>
                     {{-- <li class="{{ Request::is('dashboard-ecommerce-dashboard') ? 'active' : '' }}">
                         <a class="nav-link"
                             href="{{ url('dashboard-ecommerce-dashboard') }}">Ecommerce Dashboard</a>
